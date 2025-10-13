@@ -1,21 +1,22 @@
 # mist4610
-# 🏛️ MIST 4610 – Group Project 1  
+# MIST 4610 – Group Project 1  
 ### Group Name: [Enter your team name here]  
 **Team Members:**  
 - [Name 1] – [GitHub Link]  
 - [Name 2] – [GitHub Link]  
 - [Name 3] – [GitHub Link]  
 - [Name 4] – [GitHub Link]
+- [Name 5] – [GitHub Link]
 
 ---
 
-## 📘 Scenario Description  
+## Scenario Description  
 [Briefly describe your business scenario here. Example:  
 “Our database is designed for a local coffee shop in Athens, GA to manage orders, inventory, employees, and customers.”]
 
 ---
 
-## 🗺️ Data Model  
+## Data Model  
 **Image:**  
 ![Data Model Diagram](./datamodel.png)
 
@@ -25,7 +26,7 @@
 
 ---
 
-## 📚 Data Dictionary  
+## Data Dictionary  
 [Include a short table or bullet list explaining key columns and data types. Example:]  
 - **CustomerID** – INT, primary key, unique identifier for each customer  
 - **OrderDate** – DATE, date when the order was placed  
@@ -33,14 +34,14 @@
 
 ---
 
-## 💾 Database Information  
+## Database Information  
 **Database Name:** [Enter schema name here]  
 **Tables:** [List table names here]  
 **Rows per table:** Minimum 10  
 
 ---
 
-## 🧮 Queries  
+## Queries  
 | # | Query Description | Managerial Justification | SQL Features Used |
 |---|--------------------|---------------------------|-------------------|
 | 1 | [Describe what the query does] | [Why a manager would care] | [JOIN, GROUP BY, etc.] |
