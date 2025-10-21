@@ -5,7 +5,7 @@
 - Carson Sams – @carsonnleee
 - Lili Bennett – @bennettlili61342
 - Hana Darley – @hanaldarley
-- [Name 4] – [GitHub Link]
+- Ved Cholleti – @vedcho
 - [Name 5] – [GitHub Link]
 
 ---
