@@ -6,7 +6,7 @@
 - Lili Bennett – @bennettlili61342
 - Hana Darley – @hanaldarley
 - Ved Cholleti – @vedcho
-- Mahtith – @mahithm1
+- Mahtith Madasu – @mahithm1
 
 ---
 
