@@ -6,7 +6,7 @@
 - Lili Bennett – @bennettlili61342
 - Hana Darley – @hanaldarley
 - Ved Cholleti – @vedcho
-- [Name 5] – [GitHub Link]
+- Mahtith – @mahithm1
 
 ---
 
