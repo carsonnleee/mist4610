@@ -12,9 +12,9 @@
 
 ## Scenario Description  
 
-Our group chose to design a relational database focused on Olympic Games performance and participation data. The goal of this project is to model how information about athletes, sports, events, and results is organized and analyzed across different Olympic years.
+Our group chose to design a relational database focused on Olympic Games performance and participation data. The goal of this project is to model how the information about athletes, sports, events, and results is organized and analyzed across different Olympic years.
 The purpose of our database is to allow users, such as analysts, national committees, and event organizers, to efficiently track athlete performance, medal outcomes, and country participation trends over time. The central entity in our model is the Athlete, representing each competitor participating in events across multiple Olympic Games. Each athlete competes on behalf of a country and is associated with various sports and events held in specific venues and host cities.
-The database also captures details about teams, medals, and results, reflecting the multi-layered nature of Olympic competition. Our goal is to perform a series of analytical SQL queries to provide valuable strategic insights into Olympic operations and performance trends.
+The database also captures details about teams, medals, and results, reflecting the multi-layered nature of Olympic competition. Our goal is to perform a series of analytical SQL queries to provide insight into Olympic operations and performance trends.
 Through this model, users will be able to identify and analyze patterns such as medals won by each nation, athlete success across multiple Games, and performance efficiency of sports over time.
 
 ---
@@ -24,9 +24,10 @@ Through this model, users will be able to identify and analyze patterns such as 
 <img width="1185" height="949" alt="4610ProjectDM" src="https://github.com/user-attachments/assets/71ed6414-bf23-439c-a5a2-20ec87b2b052" />
 
 **Explanation:**  
-Our data model is based on the structure of the Olympic Games, designed to capture relationships among athletes, sports, events, teams, and host countries. The central entity in our model is the Athlete, representing each competitor participating in various Olympic Games. Each athlete is connected to several key components, such as their country, sport, results, sponsors, and coaches,  that together provide a complete picture of Olympic participation and performance.
+Our data model is based on the structure of the Olympic Games, which is designed to capture relationships among athletes, sports, events, teams, and host countries. The central entity in our model is the Athlete, representing each competitor participating in various Olympic Games. Each athlete is connected to several key components, such as their country, sport, results, sponsors, and coaches, which provides a complete picture of Olympic participation and performance.
 
 The Country entity represents the nations participating in the Olympics and holds general information such as country name and continent. Each country can have many athletes, coaches, and teams associated with it, which is why we established one-to-many relationships from Country to Athlete, Coach, and Team.
+
 The HostCity entity represents the location where each Olympic Games takes place. Each host city is connected to exactly one country (for example, Paris belongs to France), and each Olympic Game occurs in one host city. The Game entity stores information such as the year, season, start date, and end date of each Olympic competition. There is a one-to-many relationship between HostCity and Game, since a city could host multiple Games over time.
 
 The Sport entity captures the broader categories of competition (such as swimming, gymnastics, or track and field). Each sport contains multiple Events, which represent the specific competitions within that sport — for example, the 100m Freestyle or Balance Beam. The Event table is related to both Sport and Game, showing when and where each event occurred.
