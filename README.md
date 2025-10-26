@@ -24,7 +24,7 @@ Through this model, users will be able to identify and analyze patterns such as 
 <img width="1185" height="949" alt="4610ProjectDM" src="https://github.com/user-attachments/assets/71ed6414-bf23-439c-a5a2-20ec87b2b052" />
 
 **Explanation:**  
-Our data model is based on the structure of the Olympic Games, which is designed to capture relationships among athletes, sports, events, teams, and host countries. The central entity in our model is the Athlete, representing each competitor participating in various Olympic Games. Each athlete is connected to several key components, such as their country, sport, results, sponsors, and coaches, which provides a complete picture of Olympic participation and performance.
+Our data model is based on the structure of the Olympic Games, and is designed to capture relationships among athletes, sports, events, teams, and host countries. The central entity in our model is the Athlete, which represents each competitor participating in various Olympic Games. Each athlete is connected to several key components, such as their country, sport, results, sponsors, and coaches.
 
 The Country entity represents the nations participating in the Olympics and holds general information such as country name and continent. Each country can have many athletes, coaches, and teams associated with it, which is why we established one-to-many relationships from Country to Athlete, Coach, and Team.
 
@@ -38,6 +38,7 @@ The Team entity represents national or event-specific teams, and the TeamMember 
 To reflect coaching assignments, the Coach entity stores information about each coach, including their name and associated country. Because a coach may train multiple athletes, and athletes can work with multiple coaches, we used an associative entity called CoachAssignment to manage this many-to-many relationship. Similarly, the Sponsor and Sponsorship tables represent business relationships between athletes and their sponsors, with Sponsorship serving as the non-identifying bridge that includes details such as sponsorship ID, athlete ID, and sponsor ID.
 
 Overall, this model captures the essential structure and relationships within the Olympic Games. It allows users to query insights such as medal totals by country, athlete performance by sport, team composition, sponsorship trends, and event outcomes across different Games and host cities.
+
 
 
 ---
