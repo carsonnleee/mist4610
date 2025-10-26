@@ -21,7 +21,8 @@ Through this model, users will be able to identify and analyze patterns such as 
 
 ## Data Model  
 **Image:**  
-<img width="1185" height="949" alt="4610ProjectDM" src="https://github.com/user-attachments/assets/71ed6414-bf23-439c-a5a2-20ec87b2b052" />
+<img width="1193" height="989" alt="finalDM" src="https://github.com/user-attachments/assets/e76ffb56-0676-4f87-a54c-d9f4d9dc636d" />
+
 
 **Explanation:**  
 Our data model is based on the structure of the Olympic Games, and is designed to capture relationships among athletes, sports, events, teams, and host countries. The central entity in our model is the Athlete, which represents each competitor participating in various Olympic Games. Each athlete is connected to several key components, such as their country, sport, results, sponsors, and coaches.
