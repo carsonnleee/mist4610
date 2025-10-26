@@ -88,9 +88,9 @@ Together, this schema accurately reflects the structure of the Olympic ecosystem
 
 
 ## Database Information  
-**Database Name:** [Enter schema name here]  
-**Tables:** [List table names here]  
-**Rows per table:** Minimum 10  
+**Database Name:** ns_F25MIST4610_15058_Group5 
+
+**Important Note:** Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Qx(where x is to be replaced by the query number)
 
 ---
 
