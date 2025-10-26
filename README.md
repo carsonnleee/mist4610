@@ -45,12 +45,17 @@ Together, this schema accurately reflects the structure of the Olympic ecosystem
 ---
 
 ## Data Dictionary  
-[Include a short table or bullet list explaining key columns and data types. Example:]  
-- **CustomerID** – INT, primary key, unique identifier for each customer  
-- **OrderDate** – DATE, date when the order was placed  
-- **Price** – DECIMAL(5,2), price of each item  
 
----
+
+---<img width="445" height="197" alt="Screenshot 2025-10-26 at 2 14 17 PM" src="https://github.com/user-attachments/assets/3c589d43-c1a2-4243-a947-ab79553b42d2" />
+<img width="435" height="525" alt="Screenshot 2025-10-26 at 2 14 05 PM" src="https://github.com/user-attachments/assets/21602804-a5b6-4083-8763-9154f575104b" />
+<img width="416" height="517" alt="Screenshot 2025-10-26 at 2 13 56 PM" src="https://github.com/user-attachments/assets/1d6d306d-dc47-40dc-9930-0392a3da612c" />
+<img width="420" height="542" alt="Screenshot 2025-10-26 at 2 13 42 PM" src="https://github.com/user-attachments/assets/0b52b6de-dc9a-45d0-af91-5276d129c536" />
+<img width="414" height="330" alt="Screenshot 2025-10-26 at 2 13 33 PM" src="https://github.com/user-attachments/assets/45b950b3-44f8-4c20-83fa-9f051cd376e5" />
+<img width="420" height="532" alt="Screenshot 2025-10-26 at 2 13 20 PM" src="https://github.com/user-attachments/assets/70ff9c0e-a873-48e1-bdff-97874230c864" />
+<img width="411" height="545" alt="Screenshot 2025-10-26 at 2 13 06 PM" src="https://github.com/user-attachments/assets/f6c389cd-41cf-4968-97b6-71308e0d724c" />
+<img width="555" height="467" alt="Screenshot 2025-10-26 at 2 12 25 PM" src="https://github.com/user-attachments/assets/4b96d263-1625-434d-8846-2b5914cf2125" />
+
 
 ## Database Information  
 **Database Name:** [Enter schema name here]  
