@@ -21,7 +21,7 @@ Through this model, users will be able to identify and analyze patterns such as 
 
 ## Data Model  
 **Image:**  
-<img width="1193" height="989" alt="ReadMe" src="https://github.com/user-attachments/assets/02b9b0c3-cf27-40f3-8996-7307a3ff877d" />
+<img width="1193" height="989" alt="ReadMe" src="https://github.com/user-attachments/assets/12d8c76d-3f61-4c52-b50b-901f197b5cd3" />
 
 
 **Explanation:**  
