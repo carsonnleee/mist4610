@@ -25,20 +25,20 @@ Through this model, users will be able to identify and analyze patterns such as 
 
 
 **Explanation:**  
-Our data model is based on the structure of the Olympic Games, and is designed to capture relationships among athletes, sports, events, teams, and host countries. The central entity in our model is the Athlete, which represents each competitor participating in various Olympic Games. Each athlete is connected to several key components, such as their country, sport, results, sponsors, and coaches.
+Our data model is designed to represent the organizational structure of the Olympic Games, capturing the complex relationships among athletes, sports, events, teams, coaches, sponsors, and host locations. The Athlete entity serves as the central hub, linking competitors to their country, sport, coaches, sponsors, results, and team affiliations.
 
-The Country entity represents the nations participating in the Olympics and holds general information such as country name and continent. Each country can have many athletes, coaches, and teams associated with it, which is why we established one-to-many relationships from Country to Athlete, Coach, and Team.
+The Country entity stores information such as country name, continent, language, and population, and maintains one-to-many relationships with athletes, coaches, and teams. Each country may also host Olympic Games through the HostCity entity, which records the city name, population, climate, and associated country. Each HostCity can host multiple Games over time, with the Game table recording the year, season, start and end dates, and attendance.
 
-The HostCity entity represents the location where each Olympic Games takes place. Each host city is connected to exactly one country (for example, Paris belongs to France), and each Olympic Game occurs in one host city. The Game entity stores information such as the year, season, start date, and end date of each Olympic competition. There is a one-to-many relationship between HostCity and Game, since a city could host multiple Games over time.
+The Sport entity organizes the types of competition (for example, swimming, track and field, or gymnastics). Each sport contains multiple Events, which specify individual competitions such as the 100m Dash or Women’s Balance Beam. Events are linked to their sport, game, and host city, and include additional context such as the number of competitors. Each event produces many Results, which record the athlete’s medal and rank, connecting each competitor’s performance directly to a specific event.
 
-The Sport entity captures the broader categories of competition (such as swimming, gymnastics, or track and field). Each sport contains multiple Events, which represent the specific competitions within that sport — for example, the 100m Freestyle or Balance Beam. The Event table is related to both Sport and Game, showing when and where each event occurred.
-Each Event produces many Results, one per athlete, which record medals, rankings, and scores. Because each result depends on both the athlete and the event, Result serves as an associative entity connecting them. This identifying relationship ensures that performance data is directly tied to both the individual competitor and the competition they participated in.
+The Team and TeamMember entities represent group-based competition. Teams belong to a single country and have attributes such as name, type, and roster size, while TeamMember acts as an associative table that connects athletes to their teams and roles (for instance, “Relay Runner” or “Captain”).
 
-The Team entity represents national or event-specific teams, and the TeamMember table serves as a bridge between teams and athletes, allowing for a many-to-many relationship. For example, a single athlete might compete on a relay team and as an individual, while a team contains multiple athletes.
+To represent coaching relationships, the Coach entity stores details including gender and years of experience. The associative table CoachAssignment links coaches and athletes, allowing for a many-to-many relationship since one coach can train multiple athletes and one athlete can have multiple coaches.
 
-To reflect coaching assignments, the Coach entity stores information about each coach, including their name and associated country. Because a coach may train multiple athletes, and athletes can work with multiple coaches, we used an associative entity called CoachAssignment to manage this many-to-many relationship. Similarly, the Sponsor and Sponsorship tables represent business relationships between athletes and their sponsors, with Sponsorship serving as the non-identifying bridge that includes details such as sponsorship ID, athlete ID, and sponsor ID.
+Likewise, the Sponsor and Sponsorship entities model athlete endorsements. Sponsors include identifying details such as company name, country, and industry, while Sponsorship captures the partnership details — start and end dates, financial worth, and links to the athlete and sponsor.
 
-Overall, this model captures the essential structure and relationships within the Olympic Games. It allows users to query insights such as medal totals by country, athlete performance by sport, team composition, sponsorship trends, and event outcomes across different Games and host cities.
+Together, this schema accurately reflects the structure of the Olympic ecosystem. It supports queries such as total medals per country, athlete performance by sport, sponsorship value trends, or event participation across years and locations. Context-based attributes like event competitor counts, sponsorship worth, and coach experience years provide additional analytical depth for exploring the data.
+
 
 
 
