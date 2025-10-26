@@ -2,11 +2,11 @@
 # MIST 4610 – Group Project 1  
 ### Group Name: 15058_Group5
 **Team Members:**  
-- Carson Sams – [@carsonnleee] (https://github.com/carsonnleee)
-- Lili Bennett – [@bennettlili61342] (https://github.com/bennettlili61342)
-- Hana Darley – [@hanaldarley] (https://github.com/hanaldarley)
-- Ved Cholleti – [@vedcho] (https://github.com/vedcho)
-- Mahtith Madasu – [@mahithm1] (https://github.com/mahithm1)
+- Carson Sams – [@carsonnleee](https://github.com/carsonnleee)  
+- Lili Bennett – [@bennettlili61342](https://github.com/bennettlili61342)  
+- Hana Darley – [@hanaldarley](https://github.com/hanaldarley)  
+- Ved Cholleti – [@vedcho](https://github.com/vedcho)  
+- Mahith Madasu – [@mahithm1](https://github.com/mahithm1)
 
 ---
 
