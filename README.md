@@ -25,7 +25,7 @@ Through this model, users will be able to identify and analyze patterns such as 
 
 
 **Explanation:**  
-Our data model is designed to represent the organizational structure of the Olympic Games, capturing the complex relationships among athletes, sports, events, teams, coaches, sponsors, and host locations. The Athlete entity serves as the central hub, linking competitors to their country, sport, coaches, sponsors, results, and team affiliations.
+Our data model is designed to represent the organizational structure of the Olympic Games, capturing the relationships between athletes, sports, events, teams, coaches, sponsors, and host locations. The Athlete entity serves as the central hub, qhich links competitors to their country, sport, coaches, sponsors, results, and team affiliations.
 
 The Country entity stores information such as country name, continent, language, and population, and maintains one-to-many relationships with athletes, coaches, and teams. Each country may also host Olympic Games through the HostCity entity, which records the city name, population, climate, and associated country. Each HostCity can host multiple Games over time, with the Game table recording the year, season, start and end dates, and attendance.
 
@@ -37,7 +37,7 @@ To represent coaching relationships, the Coach entity stores details including g
 
 Likewise, the Sponsor and Sponsorship entities model athlete endorsements. Sponsors include identifying details such as company name, country, and industry, while Sponsorship captures the partnership details, start and end dates, financial worth, and links to the athlete and sponsor.
 
-Together, this schema accurately reflects the structure of the Olympic ecosystem. It supports queries such as total medals per country, athlete performance by sport, sponsorship value trends, or event participation across years and locations. Context-based attributes like event competitor counts, sponsorship worth, and coach experience years provide additional analytical depth for exploring the data.
+Together, this accurately reflects the structure of the Olympic ecosystem. It supports queries such as total medals per country, athlete performance by sport, sponsorship value trends, or event participation across years and locations. Context-based attributes like event competitor counts, sponsorship worth, and coach experience years provide additional analytical depth for exploring the data.
 
 
 
