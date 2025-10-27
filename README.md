@@ -157,7 +157,9 @@ Query 8 allows managers, analysts, and organizers to examine large-scale events 
 
 9. Query 9 lists U.S athletes who are currently active, and have won two or more medals. For each qualifying athlete, the query shows their sport, their current sponsor, and the total sponsorship worth provided by that sponsor. It first uses a subquery to identify athletes with at least two medals, then calculates sponsorship details by summing the sponsorship worth for each athlete’s sponsor. The query joins together the Athlete, Country, Sport, Result, and Sponsorship tables, applying filters to only include athletes from the USA with an active status. The results are ordered by the number of medals won in descending order, then alphabetically by athlete name.
 
-<img width="1009" height="461" alt="Screenshot 2025-10-26 at 6 32 49 PM" src="https://github.com/user-attachments/assets/510b61aa-386b-4928-857c-aa3a38fc129b" />
+<img width="641" height="335" alt="4610_gp_q9" src="https://github.com/user-attachments/assets/fff2e682-db19-410a-a29c-fc7cb1759ab9" />
+<img width="374" height="92" alt="4610_gp_q9_2" src="https://github.com/user-attachments/assets/288bb49e-cbfb-4550-80eb-bf0f0edae5b4" />
+
 
 
 Query 9 allows managers, analysts, and sponsors to pinpoint top-performing U.S athletes who are both successful (with 2+ medals) and currently active in competition. This is especially valuable for sponsors and marketing teams, as it highlights which American athletes represent strong investment opportunities due to both their achievements and their ongoing participation. Olympic committees and analysts can also use this query to track standout U.S athletes and their commercial backing. Sorting the list by medal count ensures the most decorated athletes appear first, making it easy to prioritize them for attention, recognition, or sponsorship expansion. 
