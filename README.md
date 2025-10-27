@@ -35,7 +35,7 @@ The Team and TeamMember entities represent group-based competition. Teams belong
 
 To represent coaching relationships, the Coach entity stores details including gender and years of experience. The associative table CoachAssignment links coaches and athletes, allowing for a many-to-many relationship since one coach can train multiple athletes and one athlete can have multiple coaches.
 
-Likewise, the Sponsor and Sponsorship entities model athlete endorsements. Sponsors include identifying details such as company name, country, and industry, while Sponsorship captures the partnership details — start and end dates, financial worth, and links to the athlete and sponsor.
+Likewise, the Sponsor and Sponsorship entities model athlete endorsements. Sponsors include identifying details such as company name, country, and industry, while Sponsorship captures the partnership details, start and end dates, financial worth, and links to the athlete and sponsor.
 
 Together, this schema accurately reflects the structure of the Olympic ecosystem. It supports queries such as total medals per country, athlete performance by sport, sponsorship value trends, or event participation across years and locations. Context-based attributes like event competitor counts, sponsorship worth, and coach experience years provide additional analytical depth for exploring the data.
 
